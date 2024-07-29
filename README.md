@@ -24,8 +24,8 @@
 <div class="badges-githubstats">
   <p align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=Rami-0&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" alt="Rami's Stats" height="165">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rami-0&theme=tokyonight&hide_border=true" alt="Rami's Streak" height="165"><br>
-    <img align="center" src="https://leetcode-stats.vercel.app/api?username=Rami-00&theme=Light" alt="Rami's Leetcode"/>
-    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Rami-0&show_icons=true&locale=en&layout=compact" alt="MostUsedLangs" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rami-0&theme=tokyonight&hide_border=true" alt="Rami's Streak" height="165">
+    <img src="https://leetcode-stats.vercel.app/api?username=Rami-00&theme=Light" alt="Rami's Leetcode" height="165"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Rami-0&show_icons=true&locale=en&layout=compact" alt="MostUsedLangs" height="165" />
   </p>
 </div>
