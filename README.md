@@ -1,4 +1,4 @@
-## Hey, World! I'm Rami 👋
+## Hello, World! I'm Rami 👋
 
 [![wakatime](https://wakatime.com/badge/user/aa09bb25-ed24-4cf1-87b4-ae8c509c9d98.svg)](https://wakatime.com/@aa09bb25-ed24-4cf1-87b4-ae8c509c9d98)
 [![Gmail Badge](https://img.shields.io/badge/-ramipro.ac@gmail.com-c14438?style=social&logo=Gmail&logoColor=red&link=mailto:ramipro.ac@gmail.com)](mailto:ramipro.ac@gmail.com)
