@@ -16,9 +16,9 @@
 - 💼 Got a freelance gig? Hit me up via <a href="mailto:ramipro.ac@gmail.com">email.</a>
 - 💬 Curious? Just ask!
 
-<div class="badges-intro">
-## 🛠  My Tech Stack
+<!-- - -->
 
+## 🛠  My Tech Stack
 ### **Front End:**
 ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23323330.svg?&style=flat-square&logo=javascript&logoColor=%23F7DF1E)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000000?style=flat-square&logo=typescript&logoColor=#3178C6)
