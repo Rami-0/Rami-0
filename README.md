@@ -9,5 +9,5 @@
 -->
 - I'm a *p word* learner. Anything related to development, especially creative frontend development!
 
-- 💼 Got a freelance gig? Email me via <a href="mailto:ramipro.ac@gmail.com">.</a>
+- 💼 Got a freelance gig? Email me via <a href="mailto:ramipro.ac@gmail.com">@mail</a>
 - 💬 Curious? Just ask!
