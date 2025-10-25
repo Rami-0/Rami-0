@@ -13,6 +13,9 @@ on:
       - main
 
 
+permissions:
+  contents: write  # allow pushing changes to the repo
+
 jobs:
   build:
     name: Generate GitHub Contribution Snake
@@ -21,6 +24,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # ensures we can commit to existing branch
 
       - name: Generate Snake animation
         uses: Platane/snk@v3
@@ -31,10 +36,17 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      - name: Push generated files
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
+      - name: Move generated files into output folder
+        run: |
+          mkdir -p output
+          mv dist/* output/
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/
+          git commit -m "update snake animation" || echo "No changes to commit"
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
