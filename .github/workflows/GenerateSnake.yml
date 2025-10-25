@@ -1,17 +1,12 @@
 name: Generate Snake
 
 on:
-  # Run automatically every 24 hours
   schedule:
     - cron: "0 0 * * *"
-
-  # Run manually from the Actions tab
   workflow_dispatch:
-
   pull_request:
     branches:
       - main
-
 
 permissions:
   contents: write  # allow pushing changes to the repo
@@ -36,10 +31,11 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      - name: Move generated files into output folder
+      - name: Copy generated files into output folder
         run: |
           mkdir -p output
-          mv dist/* output/
+          cp -r dist/* output/
+          chmod -R u+rw output
 
       - name: Commit and push changes
         run: |
