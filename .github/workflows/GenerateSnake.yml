@@ -20,7 +20,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # ensures we can commit to existing branch
+          fetch-depth: 0
+          ref: main  # checkout the main branch explicitly
 
       - name: Generate Snake animation
         uses: Platane/snk@v3
@@ -41,6 +42,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B main  # ensure we are on a branch named main
           git add output/
           git commit -m "update snake animation" || echo "No changes to commit"
           git push origin main
