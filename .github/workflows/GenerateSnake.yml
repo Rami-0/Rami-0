@@ -4,47 +4,28 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-  pull_request:
+  push:
     branches:
       - main
 
 permissions:
-  contents: write  # allow pushing changes to the repo
+  contents: write
 
 jobs:
   build:
-    name: Generate GitHub Contribution Snake
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          ref: main  # checkout the main branch explicitly
-
-      - name: Generate Snake animation
-        uses: Platane/snk@v3
+      - uses: actions/checkout@v4
+      - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-
-      - name: Copy generated files into output folder
-        run: |
-          mkdir -p output
-          cp -r dist/* output/
-          chmod -R u+rw output
-
-      - name: Commit and push changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout -B main  # ensure we are on a branch named main
-          git add output/
-          git commit -m "update snake animation" || echo "No changes to commit"
-          git push origin main
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
