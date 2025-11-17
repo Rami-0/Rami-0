@@ -1,6 +1,5 @@
 ## Hello, World! I'm Rami 👋
 
-[![wakatime](https://wakatime.com/badge/user/aa09bb25-ed24-4cf1-87b4-ae8c509c9d98.svg)](https://wakatime.com/@aa09bb25-ed24-4cf1-87b4-ae8c509c9d98)
 [![Gmail Badge](https://img.shields.io/badge/-me@shalabi.ru-c14438?style=social&logo=Gmail&logoColor=red)](mailto:me@shalabi.ru)
 [![Telegram Badge](https://img.shields.io/badge/-Telegram-c14438?style=social&logo=Telegram&logoColor=red&link=https://t.me/u88s8)](https://t.me/u88s8)
 <!--
