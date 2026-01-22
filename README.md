@@ -1,6 +1,6 @@
 ## Hello, World! I'm Rami 👋
 
-[![Gmail Badge](https://img.shields.io/badge/-me@shalabi.ru-c14438?style=social&logo=Gmail&logoColor=red)](mailto:hi@ramishalabi.xyz)
+[![Gmail Badge](https://img.shields.io/badge/-hi@ramishalabi.xyz-c14438?style=social&logo=Gmail&logoColor=red)](mailto:hi@ramishalabi.xyz)
 [![Telegram Badge](https://img.shields.io/badge/-Telegram-c14438?style=social&logo=Telegram&logoColor=red&link=https://t.me/u88s8)](https://t.me/u88s8)
 <!--
 <br/>
