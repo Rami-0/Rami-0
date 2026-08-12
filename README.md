@@ -2,7 +2,7 @@
 
 [![Gmail Badge](https://img.shields.io/badge/-hi@ramishalabi.xyz-c14438?style=social&logo=Gmail&logoColor=red)](mailto:hi@ramishalabi.xyz)
 [![Telegram Badge](https://img.shields.io/badge/-Telegram-c14438?style=social&logo=Telegram&logoColor=red&link=https://t.me/u88s8)](https://t.me/u88s8)
-![Views Counter](https://views-counter.vercel.app/badge?pageId=rami-0&leftColor=000000&rightColor=0adb3f&type=total&label=visitors&style=upper)
+![Views Counter](https://views-counter.vercel.app/badge?pageId=rami-0&leftColor=fcff38&rightColor=ffffff&type=unique&label=Viewers&style=lower)
 <!--
 <br/>
 [![LeetCode user Rami-00](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2FRami-00&logo=leetcode&logoColor=yellow)](https://leetcode.com/Rami-00/)
