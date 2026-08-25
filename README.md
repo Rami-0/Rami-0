@@ -18,5 +18,3 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/rami-0/rami-0/output/github-snake.svg" />
 </picture>
 
-
-![Views Counter](https://views-counter.vercel.app/badge?pageId=rami-0&leftColor=fcff38&rightColor=ffffff&type=unique&label=Viewers&style=lower)
